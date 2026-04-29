@@ -1,0 +1,23 @@
+DSA – Binary Search on Answer + Lower/Upper Bound (2 hrs)
+🎯 Mission: Start "Binary Search on Answer" — an interview favorite 🔍
+
+#	Question	Company Tags	Link
+1️⃣	Koko Eating Bananas	Google, Bloomberg	https://leetcode.com/problems/koko-eating-bananas/
+2️⃣	Minimum Number in Sorted Rotated Array	Amazon	https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+📌 Focus on:
+
+Setting low and high as answer space
+
+Using mid to validate condition
+
+📝 Update: DSA-Day7.md
+
+
+
+##task: array recap and 450 3 dsa Question
+-today i have covered the roatation of array ,have done sme basic question of array:
+link1-https://leetcode.com/problems/rotate-array/
+link2-https://www.naukri.com/code360/problems/reverse-the-array_1262298?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
+link3-https://www.naukri.com/code360/problems/sum-of-max-and-min_1081476?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
+link4-

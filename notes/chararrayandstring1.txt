@@ -1,0 +1,8 @@
+if we give beauty rani then it will print beauty only why?
+---bcoz as we have given the space after beauty so cin always stop the execution whenever we will give space,tab,enter.
+
+
+palindrome=if original string and reverse of the string are storing the same value
+ at the same position and number os char is also same then it palindrome.
+
+ 

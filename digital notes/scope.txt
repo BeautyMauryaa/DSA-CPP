@@ -1,0 +1,6 @@
+in the case of array we give base address(starting addressof the array not actual) to the next function not variables
+ that's why it didn't make copies  it store the base address of the name variable 
+ so whatever changes we will do in this addres it will affect our main address 
+ element so that in this update function when we are changing the 2 index element 
+ it is affection the main array also becuase it update are storing the address of main.
+

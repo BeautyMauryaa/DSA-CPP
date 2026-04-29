@@ -1,0 +1,19 @@
+//range sum query(prefix sum)
+class NumArray {
+public:
+vector<int>prefixsum;
+    NumArray(vector<int>& nums) {
+       int n=nums.size();
+       prefixsum.resize(n);
+       prefixsum[0]=nums[0];
+       for(int i=0;i<n;i++){
+        prefixsum[0]=prefixsum[i-1]+nums[i];
+       }
+    }
+    
+    int sumRange(int left, int right) {
+    if(left==0)
+    return prefixsum[right];
+        return prefixsum[right]-prefixsum[left-1];  
+    }
+};

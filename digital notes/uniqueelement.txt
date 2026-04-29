@@ -1,0 +1,13 @@
+In this we ill use xor opeartor why?
+because when we xor(^) in same element
+ then same number will cancel out like if we do 3^3= it will give 0 
+ because both number are same.
+
+
+ and if we xor between different element like 4^0=4
+
+ so:
+ 1.same number cancel out.
+ 2.XOR with zero gives the number itself.
+
+ like if we have 1,2,1,3,2,3,4,5,5 the ans will be 4.
