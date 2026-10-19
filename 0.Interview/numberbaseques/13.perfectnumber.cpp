@@ -1,0 +1,1 @@
+// Check whether a number is perfect	Sum of proper divisors
