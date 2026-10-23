@@ -92,8 +92,8 @@
 //     }
 //     return 0;
 // }
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
 // bool isprime(int num){
     
@@ -329,20 +329,124 @@ using namespace std;
 // }
 
 //coutn word
-int main(){
-    string sen;
-    cin>>sen;
-     int word=0;
-     bool inword=false;
+// int main(){
+//     string sen;
+//     cin>>sen;
+//      int word=0;
+//      bool inword=false;
 
-     for(char ch : sen){
-        if(ch !=' '&&ch!='/t'&&ch!='/n'){
-            word++;
-            inword=true;
-        }else{
-            inword=false;
+//      for(char ch : sen){
+//         if(ch !=' '&&ch!='/t'&&ch!='/n'){
+//             word++;
+//             inword=true;
+//         }else{
+//             inword=false;
+//         }
+//      }
+//      cout<<word;
+//      return 0;
+// }
+
+// int main(){
+//     string str;
+//     cin>>str;
+//     int left=0;
+//     int right=str.length()-1;
+//     while(left<right){
+//         char ch=str[left];
+//         str[left]=str[right];
+//         str[right]=ch;
+//         left++;
+//         right--;
+//     }
+
+//     cout<<str;
+//     return 0;
+// }i
+
+
+//find vowels and consonants:
+
+
+// #include<iostream>
+// #include<cctype>
+// using namespace std;
+// int main(){
+//     string str;
+//     getline(cin,str);
+
+//     int vowel=0;
+//     int consonant=0;
+//     for(int i=0;i<str.length();i++){
+//         char ch=tolower(str[i]);
+//         if(ch>='a'&&ch<='z'){
+//             if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+//                 vowel++;
+//             }else{
+//                 consonant++;
+//             }
+//         }
+//     }
+//     cout<<"vowel: "<<vowel;
+//     cout<<endl;
+//     cout<<"consonant: "<<consonant;
+//     return 0;
+// }
+
+
+#include<iostream>
+using namespace std;
+// bool palindrome(string s){
+//     int left=0;
+//     int right=s.length()-1;
+//     while(left<right){
+//         if(s[left]!=s[right]){
+//             return false;
+//         }
+//         left++;
+//         right--;
+//     }
+//     return true;
+// }
+
+// int main(){
+//     string str;
+//     getline(cin,str);
+//     if(palindrome(str)){
+//         cout<<"palindrome";
+//     }else{
+//         cout<<"not palindrome";
+//     }
+//     return 0;
+// }
+
+
+
+int main(){
+    int arr[5]={1,2,3,4,5};
+    int first=INT_MIN;
+    int second=INT_MIN;
+    int third=INT_MIN;
+    for(int i=0;i<5;i++){
+        int x=arr[i];
+        if(x==first||x==second||x==third){
+            continue;
         }
-     }
-     cout<<word;
-     return 0;
+        if(x>first){
+            third=second;
+            second=first;
+            first=x;
+        }else if(x>second){
+            third=second;
+            second=x;
+        }else if(x>=third){
+            third=x;
+        }
+    }
+    if(third==INT_MIN){
+        cout<<"doesnot exist";
+    }else{
+        cout<<third;
+    }
+    return 0;
 }
