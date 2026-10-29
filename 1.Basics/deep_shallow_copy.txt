@@ -1,0 +1,7 @@
+Shallow copy means only the address/reference is copied, not the actual data.
+It’s like sharing the same link of a file with someone — both people access the same original file, so if one person changes something, the other person sees the changes too because the data is shared.
+
+
+deep copy- duplicate copy of actual data but both are independent of each other
+
+

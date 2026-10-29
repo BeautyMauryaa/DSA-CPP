@@ -1,0 +1,4 @@
+//g++= GNU c++ compilar
+// use to convert cpp code into machine lang so that the computer can understand and run
+//code extension
+//it specifically c++ code compilar

@@ -1,0 +1,99 @@
+-measure how many operation your code will perform as the number of input increases.
+-(measure growth/operation not time or sec )
+- big o notation: it is way to measure time and space complexity:
+1. o(1)-  constant time (means number of input increase but number of operation is same)
+2. o(n)- linear time (number of operation increases as the number of input increases)
+for ex: for(int i=0;i<n;i++){
+    cout<<i;
+}..here if n=5 then loop will run 5 time if n=10 then loop will run 10
+
+
+3. 0(n square)= nested loop
+4. 0(log n)= every step data half
+
+//bestcase: 0(1)
+//worst case: o(n)
+//average case(in middle )= technically o(n/2) but in big o ignore the constant value(why?)
+//big o doesn't count exact operation it only see growth rate
+//always keep large growth term 
+
+
+
+
+//how to measure:
+//1.count the operation 
+//2. loop iteration
+//3. nested loop nsquare(multiply)
+// 4. seperate loops (add) and ignore constant
+//5. half every iteration log ne
+
+
+
+
+//space complexity: here we find how many extra space/memory our code is using excluding input:
+for ex:
+int sum =0;
+for(int i=0;i<n;i++)
+{
+    sum += arr[i];
+}
+- extra is sum which is one so sc=o(1) constant
+
+vector<int> temp;
+
+for(int i=0;i<n;i++)
+{
+    temp.push_back(arr[i]);
+}
+//if n=5 then temp will be 5 so here the o(n)
+ when calculating space complexity, we do not count the input itself.
+
+The array is already provided as input.
+
+We only consider how much additional (extra) memory the algorithm uses besides the input.
+
+Therefore, in the following code:
+
+int sum = 0;
+
+only a constant amount of extra memory is used (just one variable).
+
+So, the space complexity is O(1).
+
+
+
+//what is Time-Space Trade-off? 
+//- sometimes we use extra space to run our code faster 
+for(int i=0;i<n;i++)
+{
+    for(int j=i+1;j<n;j++)
+    {
+        if(arr[i]+arr[j]==target)
+            return true;
+    }
+}//-no extra space but tc=o(nsquare) and space o(1)
+
+
+Use HashMap
+unordered_map<int,int> mp;
+
+Time:
+
+O(n)
+
+Space:
+
+O(n)
+
+//so here We used extra memory to make the solution faster.
+
+
+
+//why recursive 0(2 to the power n):
+-recursive becoomes O(2ⁿ) when each function call makes 2 recursive calls, and this keep branching until depth n.
+//for ex: fibonacci - fib(n) calls fib(N-1) and fib(n-2), so at every level the number of calls double.
+//by the time we reach depth n, we have roughly 2ⁿ total calls.
+
+//why exactly 2ⁿ: Think of it like a binary tree. each node has 2 children, and the tree has depth n. a binary tree of depth n has at most 2ⁿ leaf nodes and 2ⁿ⁺¹ total nodes so the time complexity is O(2ⁿ).
+
+This is also why memoization helps, if we cache results, we avoid recomputing the same subtrees, which brings it down from O(2ⁿ) to O(n).

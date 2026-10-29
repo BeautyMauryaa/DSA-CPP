@@ -1,119 +1,88 @@
-<<<<<<< HEAD
-# DSA in C++ 🌱
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Data Structures](https://img.shields.io/badge/Data_Structures-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
-![Algorithms](https://img.shields.io/badge/Algorithms-3776AB?style=for-the-badge&logo=python&logoColor=white)
+# 🚀 DSA in C++ | Problem Solving & Interview Preparation
 
-Welcome to my daily lab. 
-This repository is a technical log of my journey toward mastering Data Structures and Algorithms in Cpp and my honest progress — every problem I solve, every pattern I learn, every mistake I fix.
+Welcome to my **Data Structures and Algorithms journey!** 👋
 
-I am Beauty — a developer committed to deep-diving into C++ to understand how data moves, how memory is managed, and how logic scales
+I'm building my understanding of DSA using **C++**, solving coding problems, exploring different approaches, and learning how to write efficient solutions.
 
----
+This repository is my personal space to practice consistently, strengthen my logical thinking, and prepare for technical interviews. I'm documenting my progress as I learn — one problem at a time.
 
-## Why I started this
+## 🎯 What I'm Working Towards
 
-I started this repository to move beyond "passive learning." Instead of just watching tutorials, I am documenting the "Why" behind every solution. This is my commitment to consistency, clean code, and the relentless pursuit of technical excellence.
----
+- 🧠 Strengthening my problem-solving and logical thinking skills.
+- 💻 Developing a solid understanding of DSA using C++.
+- ⚡ Learning to write clean, readable, and efficient code.
+- 📊 Understanding time and space complexity.
+- 🎯 Building confidence in solving technical interview questions.
+- 🌱 Improving through practice, mistakes, and consistency.
 
-## How this repo is organized
+## 💡 My Problem-Solving Approach
 
+I don't want to just memorize solutions. I want to understand **why a solution works and how to make it better.**
+
+Whenever possible, I focus on:
+- Understanding the problem before coding.
+- Developing a logical approach.
+- Writing and testing the solution in C++.
+- Analyzing time and space complexity.
+- Exploring better approaches and learning from mistakes.
+
+## 🛠️ Language & Practice
+
+- **Language:** C++
+- **Practice:** Coding problems, algorithmic challenges, and interview questions.
+- **Focus:** Logic, correctness, code quality, and optimization.
+
+## 🌱 Progress, Not Perfection
+
+I'm still learning, and that's exactly why this repository exists. Some problems will challenge me, some will teach me a new approach, and others will help me reinforce what I already know.
+
+My goal is to stay consistent, understand the fundamentals deeply, and become a better problem solver with every practice session.
+
+## ⚙️ How to Use This Repository
+
+Want to explore my solutions or practice locally? Follow these steps.
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/BeautyMauryaa/DSA.git
 ```
-```text
-dsa-cpp/
-├── 00-Foundations/   # Math, Bit-Manipulation, STL
-├── 01-Arrays/        # Two-Pointer, Sliding Window, Kadane's
-├── 02-Strings/       # Manipulation, KMP, Hashing
-├── 03-Recursion/     # Backtracking, Call Stack visualization
-└── ... 
+
+**2. Navigate to the project directory**
+
+```bash
+cd DSA
 ```
 
-Each folder contains solutions for that topic — one file per problem or pattern.
+**3. Compile a C++ file**
 
----
-
-## What I'm following
-- Language: C++
-- Syllabus: Zero to advanced — arrays, strings, linked lists, trees, graphs, DP and more
-- Approach: Understand the pattern → solve on paper → code it → note what I got wrong
-
----
-
-## Commit style
-
-Every time I solve a problem or learn a pattern — I commit. Small and consistent.
-
+```bash
+g++ filename.cpp -o output
 ```
-add two pointer pattern
-fix kadane's edge case
-add merge sort from scratch
+
+**4. Run the program**
+
+On Windows:
+
+```bash
+output.exe
 ```
-| ------- |
-| [0412-fizz-buzz](https://github.com/BeautyMauryaa/DSA/tree/master/0412-fizz-buzz) |
-<!---LeetCode Topics End-->
-=======
-# 🌟 My 6-Month Tech Transformation Journey
 
-Hey there! 👋  
-I’m Beauty, a 3rd-year BCA student on a mission to level up my technical skills and build a job-ready portfolio.
+On Linux/macOS:
 
-This repository is where I’m documenting my full journey — week by week — as I explore:
+```bash
+./output
+```
 
-✅ **Full Stack Development + AI Integration**  
-✅ **DevOps + Cloud + System Design**  
-✅ **DSA in C++** for strong problem-solving skills
+**Note:** Replace `filename.cpp` with the name of the C++ file you want to run. Make sure a C++ compiler, such as GCC, is installed on your system.
 
----
+## 🤝 Connect With Me
 
-## 🧭 Why This Repo?
-
-This isn’t just about completing tutorials — it’s about:
-
-- 💻 Building real-world projects  
-- ⚙️ Learning industry-grade tools and workflows  
-- 📚 Understanding systems deeply, not just memorizing  
-- 🚀 Becoming truly job-ready, not just resume-ready
+- 💼 LinkedIn: [Add your LinkedIn profile](https://www.linkedin.com/)
+- 🐙 GitHub: [BeautyMauryaa](https://github.com/BeautyMauryaa)
 
 ---
 
-## 📆 Weekly Progress
+⭐ If you're also learning DSA, let's keep learning and growing together!
 
-I’ve divided everything into weekly modules — covering theory, projects, experiments, and reflection.  
-Every commit is a piece of this growth story.
-
----
-
-## 👇 What You'll Find Here
-
-- `/fullstack-ai/` → My complete Full Stack + AI Integration journey  
-- `/devops-cloud-design/` → DevOps, Cloud tools, CI/CD, and System Design practice  
-- `/dsa-cpp/` → Daily problem-solving and logic-building  
-- `/resources/` → Notes, cheatsheets, saved links  
-- `README.md` files in each folder to guide you through
-
----
-
-## 🌱 Open to Collaborations!
-
-If you're on a similar path or want to build something cool together — feel free to connect or contribute. Let’s grow together 🚀  
-
----or---
-
-## 🤝 Need Help or Just Getting Started?
-
-If you’re someone who:
-
-- Feels lost on where to begin in tech
-- Wants the full 6-month structured syllabus
-- Is juggling life & learning and doesn’t know how to manage
-- Or just wants someone to talk to who’s on the same journey...
-
-Feel free to message me on [LinkedIn](https://www.linkedin.com/in/beauti-maurya-852a3b285/) — I genuinely love helping and sharing what I’ve learned and learning!!
-
-We're all figuring it out, step by step. Let’s grow together 🌱
-
-
----
-
-Thanks for being here! 🤍
->>>>>>> b4c113d (initial commit - DSA previous work)
+**Learn. Practice. Debug. Improve. Repeat.** 💻
