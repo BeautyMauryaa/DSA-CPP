@@ -78,7 +78,7 @@ On Linux/macOS:
 
 ## 🤝 Connect With Me
 
-- 💼 LinkedIn: [Add your LinkedIn profile](https://www.linkedin.com/)
+- 💼 LinkedIn: [beautymaurya]([https://www.linkedin.com/](https://www.linkedin.com/in/beautymaurya/))
 - 🐙 GitHub: [BeautyMauryaa](https://github.com/BeautyMauryaa)
 
 ---
